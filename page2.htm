@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd"> 
+<html>
+
+	<head>
+		<!-- This is an example of a simple html pagethat uses an external stylesheet to define it's appearance.
+			 Which external stylesheet applies can be switched though the use of javascript-->
+			 
+		<title> Page 2 </title>
+		
+		<!--First a base stylesheet with generic formatted shared by both styles-->
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<!-- Secondary styles -- Notice no link in the style sheet tag. It's set by the javascript-->
+		<link id="overwrite" rel="stylesheet" type="text/css" >
+		
+		<!-- link to jquery src and custom javascript for this page-->
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/zenStyle.js"></script>
+		
+	</head>
+
+	<body>
+		<div class="container">
+		
+			<h1> Page 2 </h1>
+			
+			<div class='nav'>
+				<a class='css' href="index.htm"> Go to home page </a>
+				<div class="css pink">Click here for pink style</div>
+				<div class="css blue">Click here for blue style</div>
+			</div>
+			
+			<hr>
+			
+			<h2> Zen Garden Style CSS Switching </h2>
+			
+			<p>	
+				This site uses javascript, jquery and cookies to enable ZenGarden style css switching. There are two basic html pages that change appearance
+				you click the link and change the stylesheet link to a different sheet. Javascript and jquery are used to listen for the click event and
+				to overwite the css link. The Javascript also writes/checks a session cookie which is used to sees which stylesheet should apply when you 
+				follow a link to a new page. If it wasn't for the cookie the style would reset to default every time you follow a link.
+			</p>
+			
+			<hr>
+			
+			<h2> Lorem Ipsum Dolor </h2>
+			
+			<p>	
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam libero, feugiat id pretium in, tincidunt ac justo. Vivamus convallis risus vel nulla consectetur eu varius dolor dignissim. Nullam pellentesque posuere rhoncus. In hac habitasse platea dictumst. Curabitur sit amet sem massa, non tempor libero. Cras eget dui vestibulum mi iaculis placerat non non massa. Phasellus nisi orci, consequat id euismod sit amet, suscipit eget dui. Cras pulvinar vulputate sollicitudin. Morbi quis augue in turpis pulvinar placerat. Integer tempor ullamcorper mauris, vitae placerat velit dignissim eu. Sed pulvinar elit at nisi vehicula volutpat suscipit ipsum lacinia. Mauris eu ornare orci. Curabitur dignissim quam convallis leo sollicitudin vestibulum mattis urna iaculis. 
+			</p>
+			
+			<hr>
+			
+			<h2> This is a list of links </h2>			
+			
+			<ul>
+				<li><a href="http://www.w3schools.com/html/default.asp">HTML Tutorials</a></li>
+				<li><a href="http://www.w3schools.com/css/default.asp">CSS Tutorials</a></li>
+				<li><a href="http://validator.w3.org/">HTML Validator</a></li>
+			</ul> 
+			
+		</div>
+	</body>
+
+
+
+
+
+
+
+
+
+</html>

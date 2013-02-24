@@ -1,0 +1,40 @@
+/* This is the base css style for both designs */
+body{
+	font-family:verdana;
+}
+
+h1{
+	text-align:center
+}
+
+p{
+	font-family:Arial;
+}
+
+hr{
+	height:5px ; 
+}
+
+.nav{
+	margin-bottom:20px;
+	margin-bottom:20px;
+}
+
+.css{
+	display:inline;
+	padding:10px;
+	margin:10px;
+    border: 1px solid;
+}
+
+.pink{
+    color:red;
+	border-color:red;
+    background-color:pink;
+}
+
+.blue{
+    color:blue;
+	border-color:blue;
+    background-color:lightblue;
+}

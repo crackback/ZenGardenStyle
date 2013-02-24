@@ -1,0 +1,17 @@
+/* Alternate style set by js */
+body{
+	background-color:pink;
+	color:red;
+}
+
+h1{
+	color:black;
+}
+
+p{
+	font-family:Arial;
+}
+
+hr{
+	color:red;
+}

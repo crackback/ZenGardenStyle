@@ -1,0 +1,23 @@
+/* Alternate style set by js */
+body{
+	background-color:lightblue;
+	color:blue;
+}
+
+p{
+	font-family:times;
+	color:black;
+}
+
+hr{
+	width:50% ;
+	color:gray;
+}
+
+.container{
+	width:900px;
+	margin:auto;
+}
+
+
+
