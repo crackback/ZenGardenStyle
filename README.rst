@@ -1,5 +1,5 @@
 =============
-ZenGardenStyel CSS
+ZenGardenStyle CSS
 =============
 
 This is a simple little template for students to begin a website. It uses browser side js and cookies to track which stylesheet applies to the site.
